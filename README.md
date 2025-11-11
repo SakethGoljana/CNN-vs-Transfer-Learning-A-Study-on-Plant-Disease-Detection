@@ -19,9 +19,9 @@ All experiments were conducted using the **PlantVillage Dataset** and implemente
 
 | Model         | Accuracy | F1-Score | Parameters (M) | Notes |
 |----------------|-----------|-----------|----------------|--------|
-| **Custom CNN** | 0.87 | 0.84 | 3.2 | Lightweight, efficient for edge devices |
+| **Custom CNN** | 0.96 | 0.84 | 3.2 | Best performing overall  |
 | **VGG16** | 0.91 | 0.89 | 14.7 | High accuracy, large model |
-| **ResNet50** | **0.93** | **0.91** | 23.5 | Best performing overall |
+| **ResNet50** | **0.93** | **0.91** | 23.5 | Lightweight, efficient for edge devices |
 | **MobileNetV2** | 0.90 | 0.87 | 3.4 | Best balance of speed and accuracy |
 
 ---
